@@ -31,4 +31,4 @@ const pipe = document.querySelector('.pipe');
 
     }, 10);
 
-document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
