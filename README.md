@@ -5,4 +5,4 @@ Teste de recriação do game Super Mario, desenvolvido pelo canal "Manual do Dev
 
 *Adiciona evento tochstart em adventListener.
 
-*Acesse a banch **MASTER** para analisar os arquivos!!
+*Acesse a branch **MASTER** para analisar os arquivos!!
