@@ -32,4 +32,4 @@ const pipe = document.querySelector('.pipe');
     }, 10);
 
 document.addEventListener('touchstart', jump);
-document.addEventListener('keydown', jump)
+document.addEventListener('keydown', jump);
