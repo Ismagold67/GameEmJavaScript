@@ -32,6 +32,7 @@ const pipe = document.querySelector('.pipe');
     }, 10);
 
 document.addEventListener('touchstart', jump);
+<<<<<<< HEAD
 document.addEventListener('keydown', jump)
 
 const ColorButton = document.querySelector('input#Try');
@@ -55,3 +56,6 @@ function Reiniciar() {
 }
 ColorButton.addEventListener('mouseenter', Color)
 ColorButton.addEventListener('mouseout', Color2)
+=======
+document.addEventListener('keydown', jump);
+>>>>>>> 17b44ff488c168616a43f7e24b1bc5ee3f088ffa
