@@ -24,7 +24,7 @@ const pipe = document.querySelector('.pipe');
 
             mario.src = './images/game-over.png';
             mario.style.width = '75px'
-            mario.style.marginLetf = '100% '
+            mario.style.marginLetf = '100%'
 
             clearInterval(loop);
         }    
@@ -33,3 +33,25 @@ const pipe = document.querySelector('.pipe');
 
 document.addEventListener('touchstart', jump);
 document.addEventListener('keydown', jump)
+
+const ColorButton = document.querySelector('input#Try');
+const Jumps = document.querySelector('input#jumper')
+
+function jumps() {
+    const Av = Jumps.addEventListener('keydown')
+    for(var a = 1000;Av < a;Av++) {
+        Jumps.innerHTML = `${Av}`
+        Jumps.appendChild(input)
+    }
+}
+function Color() {
+    ColorButton.style.background = '#DBCA0B'
+}
+function Color2() {
+    ColorButton.style.background = 'white'
+}
+function Reiniciar() {
+    window.location.reload(true);
+}
+ColorButton.addEventListener('mouseenter', Color)
+ColorButton.addEventListener('mouseout', Color2)

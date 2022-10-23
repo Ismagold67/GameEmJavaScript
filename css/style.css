@@ -58,11 +58,15 @@
     }
 
     50% {
-        bottom: 180px;
+        bottom: 200px;
     }
 
     60% {
         bottom: 180px;
+    }
+    
+    80% {
+        bottom: 20%;
     }
 
     100% {
@@ -78,4 +82,21 @@
     to {
         right: 100%;
     }
+}
+input {
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 100px;
+}
+div#rein {
+    text-align: center;
+}
+p#jumper {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
