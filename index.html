@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div#pula {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-right: 25px;
+        }
+        span#jumpery {
+            color: blue;
+            text-align: center;
+            margin: 0 auto;
+            padding: 15px;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            border-radius: 100px;
+        }
+    </style>
     <link rel="stylesheet" href="css/style.css">
     <title>Mario Jump</title>
 </head>
@@ -12,12 +30,12 @@
         <img src="images/clouds.png" class="clouds">
         <img src="images/mario.gif" class="mario">
         <img src="images/pipe.png" class="pipe">
-        <audio src="images/RPReplay_Final1665806367 (online-audio-converter.com).mp3" loop></audio>
-        <p id="jumper">JUMPS:</p><input type="button" value="0">
+        <audio src="images/RPReplay_Final1665806367 (online-audio-converter.com).mp3" loop autoplay></audio>
+        <p id="jumper">JUMPS:</p><span id="jumpery">0</span>
     </div>
     <div id="rein">
         <br>
-        <input type="button" value="Tente Novamente" id="Try" onclick="Reiniciar()">
+        <input type="button" value="Try Again↺" id="Try" onclick="Reiniciar()">
     </div>
     <script src="js/script.js"></script>
     

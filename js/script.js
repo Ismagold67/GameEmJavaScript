@@ -1,9 +1,12 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+//const audio = new Audio('pulo.mp3') -> Em andamento
 
     const jump = () => {
+        //audio.play('jump'); -> Em andamento
         mario.classList.add('jump');
-
+        count++;
+        Jumps.innerHTML = count;
         setTimeout(() => {
             mario.classList.remove('jump');
         }, 500)
@@ -31,20 +34,12 @@ const pipe = document.querySelector('.pipe');
 
     }, 10);
 
-document.addEventListener('touchstart', jump);
-
-document.addEventListener('keydown', jump)
 
 const ColorButton = document.querySelector('input#Try');
-const Jumps = document.querySelector('input#jumper')
+const Jumps = document.getElementById('jumpery')
+var count = 0;
 
-function jumps() {
-    const Av = Jumps.addEventListener('keydown')
-    for(var a = 1000;Av < a;Av++) {
-        Jumps.innerHTML = `${Av}`
-        Jumps.appendChild(input)
-    }
-}
+
 function Color() {
     ColorButton.style.background = '#DBCA0B'
 }
@@ -54,7 +49,9 @@ function Color2() {
 function Reiniciar() {
     window.location.reload(true);
 }
+
 ColorButton.addEventListener('mouseenter', Color)
 ColorButton.addEventListener('mouseout', Color2)
-
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
+

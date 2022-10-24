@@ -95,8 +95,12 @@ input {
 }
 div#rein {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 p#jumper {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 20px;
 }
