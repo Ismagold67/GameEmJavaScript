@@ -5,4 +5,8 @@ Teste de recriação do game Super Mario, desenvolvido pelo canal "Manual do Dev
 
 *Adiciona evento tochstart em adventListener.
 
+*Adiciona som de pulo do Mario
+
+*Adiciona contagem dos pulos 
+
 *Acesse a branch **MASTER** para analisar os arquivos!!
