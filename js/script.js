@@ -1,14 +1,17 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+const udio = document.getElementById('audio')
 //const audio = new Audio('pulo.mp3') -> Em andamento
 
     const jump = () => {
         //audio.play('jump'); -> Em andamento
         mario.classList.add('jump');
-        count++;
-        Jumps.innerHTML = count;
+        udio.play();
+        
         setTimeout(() => {
             mario.classList.remove('jump');
+            count++;
+            Jumps.innerHTML = count;
         }, 500)
     }
 
